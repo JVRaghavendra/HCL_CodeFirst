@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HCL_CodeFirst.BusinessEntities\HCL_CodeFirst.BusinessEntities.csproj" />
+    <ProjectReference Include="..\HCL_CodeFirst.DatabaseLogic\HCL_CodeFirst.DatabaseLogic.csproj" />
+  </ItemGroup>
+
+</Project>
